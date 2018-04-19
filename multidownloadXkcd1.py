@@ -1,5 +1,5 @@
 #! /etc/python3
-# downloadXkcd.py - Downloads every single XKCD comic
+# multidownloadXkcd.py - Downloads XKCD comics using multi-threading
 
 import requests, os, bs4, threading
 os.makedirs('xkcd', exist_ok=True)
